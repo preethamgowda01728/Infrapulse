@@ -1,29 +1,18 @@
-InfraPulse 🚆🏗️
+# InfraPulse Review 2 website
 
-Intelligent Infrastructure. Predictive Insights. Safer Futures.
+## Run on your computer
+1. Install Python 3.10 or newer.
+2. Extract this ZIP.
+3. Open a terminal in the extracted `infrapulse_railway_ui` folder.
+4. Run `pip install -r requirements.txt`
+5. Run `streamlit run app.py`
+6. Your browser should open the local site (usually http://localhost:8501).
 
-InfraPulse is a unified AI-powered infrastructure health monitoring framework designed to transform traditional inspection into intelligent, data-driven predictive monitoring. The platform integrates deep learning, anomaly detection, and risk assessment to identify potential structural and operational abnormalities across railway tracks, bridges, and dams.
+## Publish online so it opens in Google Chrome
+1. Create a GitHub account and a new public repository named `infrapulse-railway-ui`.
+2. Upload `app.py`, `requirements.txt`, the `pages` folder, and this README.
+3. Open https://share.streamlit.io/ and sign in with GitHub.
+4. Choose **Create app**, select your repository and branch, set the main file path to `app.py`, then deploy.
+5. Streamlit gives you a public URL like `https://your-app-name.streamlit.app`. Open that link in Chrome and share it with your guide.
 
-By combining specialized machine learning architectures—including 1D-CNN for railway track anomaly detection, CNN-LSTM for bridge monitoring, and LSTM for dam condition analysis—InfraPulse aims to provide a unified view of infrastructure health through an integrated analytics dashboard.
-
-Core Capabilities
-
-Railway Track Monitoring: Signal-based anomaly detection using 1D-CNN.
-
-Bridge Health Analysis: Spatial and temporal pattern analysis using CNN-LSTM.
-
-Dam Condition Monitoring: Time-series-based anomaly detection using LSTM.
-
-Unified AI Intelligence: Integration of infrastructure-specific model outputs.
-
-Health Score & Risk Assessment: Summarized condition indicators to support maintenance prioritization.
-
-Interactive Dashboard: Visual analytics for monitoring anomalies, health indicators, and potential risks.
-
-Vision
-
-To enable smarter infrastructure management through predictive intelligence, early anomaly identification, and data-driven maintenance planning—contributing to safer, more resilient, and more sustainable infrastructure systems.
-
-InfraPulse — Detect Early. Assess Intelligently. Protect Infrastructure.
-
-This is an academic and research-oriented project. Predictions and risk indicators are intended to support inspection and decision-making, not replace professional engineering assessments.
+All scores, sensor readings, predictions, and alerts in this prototype are illustrative sample data, not live sensor or model output.
