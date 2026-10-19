@@ -13,8 +13,10 @@ with st.sidebar:
     st.markdown('## ⚡ InfraPulse')
     st.caption('Smarter infrastructure. Safer tomorrow.')
     st.markdown('---')
-    st.page_link('pages/2_Bridges.py', label='Bridges', icon='🌉')
-    st.page_link('pages/3_Dams.py', label='Dams', icon='🌊')
+    st.title("InfraPulse")
+
+    st.page_link("pages/2_Bridges.py", label="Bridges", icon="🌉")
+    st.page_link("pages/3_Dams.py", label="Dams", icon="🏗️")
     st.markdown('---')
     st.caption('Review 2 prototype • Demo data only')
 
