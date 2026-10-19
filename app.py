@@ -13,7 +13,6 @@ with st.sidebar:
     st.markdown('## ⚡ InfraPulse')
     st.caption('Smarter infrastructure. Safer tomorrow.')
     st.markdown('---')
-    st.page_link('app.py', label='Overview / Railways', icon='🚆')
     st.page_link('pages/2_Bridges.py', label='Bridges', icon='🌉')
     st.page_link('pages/3_Dams.py', label='Dams', icon='🌊')
     st.markdown('---')
